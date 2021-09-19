@@ -1,0 +1,527 @@
+
+a, p, h1, h2, h3, h4, h5, h6,li,span, div {
+    font-family: "BPG Ingiri Arial", sans-serif;
+}
+body {
+    background-color: #EAEAEA;
+}
+.margin {
+    margin-bottom: 30px;
+}
+
+.margin h4 {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #232323
+}
+
+/*------------------start page and logos ----------------*/
+
+.logo {
+    width: 61px;
+    margin: auto;
+    position: relative;
+    top: 297px;
+}
+ 
+
+
+.logo img {
+
+    height: 60px;  
+}
+
+.next-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    color: #232323;
+}
+
+.next-page a:hover {
+    text-shadow: 3px 3px white;
+}
+.next-page {
+    margin: 0 auto;
+    width: 113px;
+    position: relative;
+    top: 322px;
+    text-align: center;
+    
+}
+
+.next-page a:hover {
+   
+}
+
+
+
+/*------------------ start page and logos ----------------*/
+
+
+
+
+
+/*------------------PAGE  2 ----------------*/
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.head {
+    display: flex;
+    border-bottom: solid 2px;
+    margin-bottom: 35px;
+
+}
+
+.redbery {
+    flex-basis: 100%;
+    color: red;
+    margin-bottom: 14px;
+}
+
+.pager {
+    flex-basis: 0%;
+    position: relative;
+    
+
+}
+
+.pager span {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.redbery h1 {
+    font-weight: bold;
+    
+
+}
+
+
+.contact-info {
+    width: 40%;    
+}
+
+
+.contact-info h4 {
+    margin-bottom: 7px
+}
+
+.contact-info input {
+    width: 300px;
+    height: 25px
+
+}
+
+
+.warning  {
+    border-top: solid 1px;
+    width: 209px;
+    margin-top: 80px;
+ 
+
+}
+
+.right-img img {
+    
+margin: -40px 105px; 
+width: 600px;
+   
+}
+.right-img {
+    position: relative;
+ 
+}
+.animation-box {
+    background-color: #d7d7097a;
+    height: 40px;
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    width: 344px;
+    left: 226px;
+    top: 118px;
+}
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.arrows {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  
+    
+}
+
+.arrows i {
+    margin-left: 47px;
+   
+}
+
+
+
+
+
+
+/*------------------PAGE  2 ----------------*/
+
+
+
+
+
+/*------------------PAGE  3 ----------------*/
+
+
+
+
+
+.contact-info input[type="radio"] {
+    width: auto !important;
+    height: auto !important;
+
+}
+ 
+.radio {
+
+    margin-bottom: 7px;
+}
+
+
+.animation {
+    background-color: #ff0000bf;
+    border-radius: 50%;
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: slidedown;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    height: 156px;
+    width: 154px;
+    top: 113px;
+    left: 152px;
+}
+
+.change-opacity {
+
+    position: absolute;
+    top: 0;
+    animation-duration: 1s;
+    animation-name: changeopacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+
+
+/*------------------PAGE  3 ----------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------------PAGE  4 ----------------*/
+
+
+.contact-info p {
+    width: 360px;
+    margin-top: 47px;
+}
+.registration-link i {
+    color: rgb(255, 178, 35);
+}
+.registration-link a {
+    color: #1289AE;
+    text-decoration: none;
+}
+
+.arrows a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.doctor-img {
+    margin: 1px 105px !important;
+ 
+    position: relative;
+}
+.animation-image {
+    width: 20% !important;
+    top: 45px;
+    left: 47px;
+    z-index: 0;
+    position: absolute;
+
+}
+.link-id a {
+    text-decoration: none;
+    color: blue;
+}
+.link-id p {
+    font-weight: bold;
+}
+.link-id {
+    width: 355px;
+    margin-left: 26px;
+    margin-top: 29px;
+}
+
+
+
+
+
+
+
+/*------------------PAGE  4 ----------------*/
+
+
+
+
+
+
+
+/*------------------PAGE  5 ----------------*/
+
+
+.final-img {
+    margin: 1px 105px !important;
+    width: 600px;
+    position: relative;
+   
+}
+.final-animation {  
+    width: 16%;
+    top: 75px;
+    left: 201px;
+    position: absolute;
+    opacity: 0.7;
+    animation-duration: 2s;
+    animation-name: bringitdown;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+.img-wrapper {
+    position: relative;
+}
+
+
+.frames {
+    width: 365px;
+    height: 105px;
+}
+ 
+    
+
+
+ .finish-button  {
+   
+    width: 474px;
+    text-align: right;
+}
+.finish-button a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 27px;
+    background-color: #3799b9;
+    border-radius: 50px;
+
+}
+
+/*------------------PAGE  5 ----------------*/
+
+
+
+
+
+
+
+
+
+/*------------------PAGE  6 ----------------*/
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* animation-name: backgroundopacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+    position: relative;
+}
+
+
+
+
+.background h1 {
+    color: white;
+    position: relative;
+    top: 37%;
+    text-align: center;
+    font-size: 45px;
+}
+.last-arrow {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    top: 91px;
+  
+}
+
+
+ 
+/* .star {
+    animation-name: staropacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+} */
+.star-icon-one {
+    width: 16px;  
+    position: absolute;
+    top: 47%;
+    color: white;
+    left: 55%;
+    animation-name: movestartwo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+.star-icon-two {
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 43%;
+    animation-name: movestarone;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.heart-shape{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: rgba(250,184,66, 1);
+  }
+  .heart-shape:before,
+  .heart-shape:after{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(250,184,66, 1);
+  }
+  .heart-shape:before{
+    bottom: 0px;
+    left: -100px;
+  }
+  .heart-shape:after{
+    top: -100px;
+    right: 0px;
+  }
+
+
+
+/*------------------PAGE  6 ----------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------- ANIMATIONS---------------------------------------- */
+@keyframes slidein {
+    from {width: 0px; left: 209px; top: 136px;}
+    50% {width: 100px;}
+    75% {width: 250px;}
+    to {width: 344px; left: 226px; top: 118px;}
+
+}
+
+
+@keyframes slidedown {
+    from {width: 420px; height: 80px; left: 226px; top: 61px; background-color: #ff00007d;}
+    /* 50% {width: px;}
+    75% {width: px;} */
+    to {height: 156px; width: 154px; left: 152px; top: 113px; background-color: #ff0000bf;}
+    
+}
+@keyframes changeopacity {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes bringitdown {
+    from {left: 150px; top: 15px; width: 31%; }
+    to {width: 16%; top: 75px; left: 201px;}    
+   
+}
+
+/* @keyframes staropacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} */
+
+@keyframes movestarone {
+    from {top: 30%; opacity: 0; }
+    to {top: 28%; opacity: 1;}
+}
+
+@keyframes movestartwo {
+    from {top: 41%; left: 52%; opacity: 0;}
+    to {top: 47%; left: 55%; opacity: 1;}
+}
+
+@keyframes backgroundopacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* @keyframes growth {
+    from {width: 21%; opacity: 1;}
+    50% {width: 50%; opacity: 0.5;}
+    to {width: 100%; opacity: 0;}
+} */
+/*---------------------------------------------- ANIMATIONS---------------------------------------- */
